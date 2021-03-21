@@ -2,11 +2,11 @@
 <html lang="{{ $.Site.Language.Lang }}">
   {{ partial "head" . }}
   <body class="sans-serif">
-
+    <main class="main" id="main" role="main">
     {{ block "header" . }}{{ partial "nav" . }}{{end}}
 
     {{ block "main" . }}{{ end }}
-
+    </main>
     {{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
     {{ $script := .Site.Data.webpack.main }}
