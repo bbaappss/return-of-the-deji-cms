@@ -1,6 +1,6 @@
 ---
 title: Return Of The Deji
-subtitle: Support sustainable farming while enjoying a cup
+subtitle: Deji Bryce Olukotun is an author, speaker, and changemaker.
 image: /img/home-jumbotron.jpg
 blurb:
   heading: Why Kaldi?
