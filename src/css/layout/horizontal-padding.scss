@@ -1,0 +1,6 @@
+.padding-on-large-screens {
+  @media (min-width: 1280px) {
+    padding-left: 8vw !important;
+    padding-right: 8vw !important;
+  }
+}

@@ -1,0 +1,32 @@
+.inquiries {
+    border: 12px solid white;
+    padding: 24px;
+
+    h2 {
+        color: $green;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin-top: 16px;
+        font-size: 18px;
+    }
+
+    a {
+        color: $green;
+        font-weight: 500;
+    }
+
+    @media (min-width: 1024px) {
+        padding: 4vw;
+        max-width: 50vw;
+        margin: 0 auto;
+        p {
+            font-size: 20px;
+            max-width: 600px;
+            line-height: 1.5;
+        }
+    }
+
+}

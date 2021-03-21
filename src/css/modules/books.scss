@@ -1,0 +1,38 @@
+.section.books {
+  background: $gold;
+  padding-top: 64px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+
+  .cta {
+    align-self: flex-end;
+    color: black;
+    border-bottom: 1px solid black;
+    margin-top: 32px;
+  }
+
+  h2 {
+    color: $dark;
+  }
+}
+
+  .available-from-container {
+    border: dashed 5px $green;
+    padding: 36px;
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    width: -moz-fit-content;
+    .available-from {
+      font-size: 20px;
+    }
+    a {
+      font-weight: 600;
+      color: black;
+      display: block;
+      margin: 12px 0 0;
+      font-size: 18px;
+    }
+  }

@@ -1,0 +1,31 @@
+body {
+  font-family: "Avenir", sans-serif;
+  font-weight: 300;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.blue {
+  color: $blue;
+}
+
+.white {
+  color: white;
+}
+
+h1 {
+  @media (min-width: 1440px) {
+    font-size: 4vw;
+  }
+}

@@ -1,0 +1,159 @@
+@import "reset";
+
+@import "vendor/customize/hamburgers-settings.scss";
+@import "vendor/hamburgers/hamburgers.scss";
+@import "colors";
+
+@import "text/typography.scss";
+@import "text/button.scss";
+@import "layout/horizontal-padding.scss";
+@import "modules/bio.scss";
+@import "modules/books.scss";
+@import "modules/burger-and-fries.scss";
+@import "modules/collection-item.scss";
+@import "modules/color-overlay.scss";
+@import "modules/exploration-post.scss";
+@import "modules/featured-in.scss";
+@import "modules/footer.scss";
+@import "modules/get-connected.scss";
+@import "modules/homepage-book.scss";
+@import "modules/homepage-hero.scss";
+@import "modules/inner-page-section-container.scss";
+@import "modules/inquiries.scss";
+@import "modules/loading.scss";
+@import "modules/newsletter.scss";
+@import "modules/section-transition.scss";
+@import "modules/section.scss";
+@import "modules/the-latest.scss";
+@import "modules/update-page.scss";
+@import "modules/updates.scss";
+@import "modules/vw-text.scss";
+
+
+.does-not-work:hover {
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  border-bottom: 0;
+}
+
+.cta {
+  border-bottom: 1px solid white;
+  color: white;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 6px 0;
+  display: flex;
+  align-items: center;
+  line-height: 1.3;
+  text-decoration: none;
+
+  svg path {
+    fill: #fff;
+  }
+  span {
+    margin-right: 12px;
+  }
+  img {
+    height: 20px;
+  }
+}
+
+.section-headline {
+  margin-bottom: 36px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+
+  label {
+    color: $blue;
+  }
+
+  input {
+    border: 0;
+    border-radius: 6px;
+    margin-top: 6px;
+    padding: 16px 20px;
+    width: 100%;
+    font-size: 24px;
+  }
+
+  button {
+    margin-top: 12px;
+    border: 0;
+    background: white;
+    color: $green;
+    width: -moz-fit-content;
+    width: fit-content;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 16px 24px;
+    border-radius: 6px;
+  }
+}
+
+.homepage-section-container {
+  .section {
+    padding: 24px;
+  }
+
+  @media (min-width: 1024px) {
+    .section {
+      padding: 0;
+    }
+
+    display: flex;
+    margin-left: auto;
+    padding: 00px 0px 0px;
+    width: 50%;
+  }
+}
+
+.video-container {
+  margin: 24px 0 36px;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mc-field-group {
+  margin-top: 16px;
+}
+
+#mc_embed_signup form {
+  padding: 0 !important;
+}
+
+#mc_embed_signup .button {
+  background: $green !important;
+  box-shadow: inherit;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: $green !important;
+  padding: 0;
+  margin: 0;
+}
+
+#mc_embed_signup .mc-field-group input {
+  max-width: 324px !important;
+}

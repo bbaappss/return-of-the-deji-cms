@@ -1,0 +1,23 @@
+.section.inner-page-section-container {
+    background: $green;    
+    padding: 60px 24px;
+
+    @media (min-width: 1024px) {
+        padding: 100px 24px;
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+
+    .update-container {
+        margin: 24px 0 0;
+        padding: 0;
+        @media (min-width: 1024px) {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }    
+
+}

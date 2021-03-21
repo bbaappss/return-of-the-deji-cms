@@ -1,0 +1,29 @@
+.the-latest {
+  background: $green;
+
+  h2 {
+    margin-top: 32px;
+  }
+  .the-latest-updates-container {
+    .update-container {
+      padding: 0;
+      &:not(:first-of-type) {
+        margin-top: 64px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .the-latest {
+    background: transparent;
+
+    .the-latest-updates-container {
+      .update-container {
+        &:not(:first-of-type) {
+          margin-top: 100px;
+        }
+      }
+    }
+  }
+}

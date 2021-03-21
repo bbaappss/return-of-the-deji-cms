@@ -1,0 +1,41 @@
+.collections {
+    margin-top: 72px;
+    padding-bottom: 72px;
+    h2 {
+      margin-bottom: 0;
+    }
+    p {
+      font-size: 20px;
+      margin-top: 12px;
+    }
+
+    @media (min-width: 1024px) {
+      h2, p {
+        margin-left: 64px;
+      }
+
+      hr {display: none;}
+      .collection-item-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: end;
+        column-gap: 24px;
+
+        img {max-width: 264px;}
+
+        .book-title {
+          width: 80%;
+          margin: 0 auto 24px;
+        }
+      }
+    }
+}
+
+a.collection-item {
+    display: flex;
+    flex-direction: column;
+    color: black; text-decoration: none;
+    + .collection-item {
+        margin-top: 48px;
+    }
+}

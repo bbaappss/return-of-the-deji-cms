@@ -1,0 +1,56 @@
+.homepage-hero {
+  color: $blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 60px;
+  z-index: 1;
+  min-height: 100vh;
+  overflow: hidden;
+
+  @media (min-width: 1024px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 100px 64px 64px;
+    width: 50%;
+    margin-left: auto;
+  }
+  
+
+
+  @media (min-width: 1024px) {
+
+    .update-container {
+      padding: 0;
+    }
+  }
+
+  .headline {
+    padding: 16px 16px;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.4;
+
+    @media (min-width: 768px) {
+      font-size: 48px;
+    }
+
+    @media (min-width: 1024px) {
+      padding: 0 0 0 0;
+      font-size: 40px;
+      text-shadow: 3px 4px 0px $dark;
+    }
+  }
+
+  .update-container {
+    margin-bottom: 60px;
+
+    @media (min-width: 768px) {
+      margin-top: 48px;
+    }
+    @media (min-width: 1024px) {
+      margin-bottom: 0px;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.section-transition-container {
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+
+  @media (min-width: 1024px) {
+    background: $tan;
+  }
+
+  > * {
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.section-transition.bgimage {
+  background-image: url("/images/Deji 2021 Glamor Photo -optimized.jpeg");
+  background-size: 170%;
+  background-position: 0 0;
+
+  @media (min-width: 768px) {
+    background-size: 130%;
+    background-position: 0 15%;
+  }
+
+  @media (min-width: 1024px) {
+    background-size: 150%;
+    background-position: 0 30%;
+    width: 50%;
+    left: 0;
+  }
+
+  @media (min-width: 1024px) {
+    background-size: 130%;
+  }
+}
+
+.gradient {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(151, 102, 78, 0) 65%,
+    rgba(151, 102, 78, 0) 100%
+  );
+
+  @media (min-width: 1024px) {
+    opacity: 0.3;
+  }
+}
+
+.section-transition.dark {
+  opacity: 0;
+  background: $dark;
+}
+
+.section-transition.green {
+  opacity: 0;
+  background: $green;
+}

@@ -1,0 +1,21 @@
+.homepage-section-container .section.bio {
+  background: $green;
+  padding-bottom: 96px;
+  padding-top: 96px;
+
+  @media (min-width: 1024px) {
+    padding: 64px;
+  }
+
+  p {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+
+    + p {
+      margin-top: 32px;
+      font-size: 20px;
+      font-weight: normal;
+    }
+  }
+}
