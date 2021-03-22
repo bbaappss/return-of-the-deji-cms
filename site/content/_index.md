@@ -1,7 +1,7 @@
 ---
 title: Return Of The Deji
 subtitle: Deji Bryce Olukotun is an author, speaker, and changemaker.
-image: /img/home-jumbotron.jpg
+image: img/deji-2021-glamor-photo-optimized.jpeg
 blurb:
   heading: Why Kaldi?
   text: Kaldi is the coffee store for everyone who believes that great coffee
