@@ -31,7 +31,7 @@ collections: # A list of collections the CMS should be able to edit
               widget: relation,
               collection: post,
               value_field: post,
-              search_fields: title,
+              search_fields: [post.title],
             }
           - {
               label: "Intro",
