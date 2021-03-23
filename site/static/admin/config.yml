@@ -29,7 +29,7 @@ collections: # A list of collections the CMS should be able to edit
               label: "Featured Post",
               name: "featuredPost",
               widget: "relation",
-              collection: "pages",
+              collection: "post",
               value_field: "title",
               search_fields: ["title"],
             }
