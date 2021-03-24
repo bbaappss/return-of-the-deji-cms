@@ -10,7 +10,10 @@ blurb:
     profits are reinvested in their communities.
 intro:
   heading: Biography
-  text: Testing testing
+  text: |-
+    **What is happening**
+
+    And what about now?
 products:
   - image: img/illustrations-coffee.svg
     text: We sell green and roasted coffee beans that are sourced directly from
