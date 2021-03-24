@@ -10,18 +10,7 @@ blurb:
     profits are reinvested in their communities.
 intro:
   heading: Biography
-  text: >-
-    DEJI BRYCE OLUKOTUN is the author of two novels and his fiction has appeared
-    in five different book collections.
-
-
-    His novel After the Flare won the 2018 Philip K. Dick special citation, and was chosen as one of the best books of 2017 by The Guardian, The Washington Post, Syfy.com, Tor.com, Kirkus Reviews, among others.
-
-
-    His short story Between the Dark and the Dark, published in Lightspeed, was selected by editor Diana Gabaldon for Best American Science Fiction and Fantasy 2020 (Houghton Mifflin Harcourt).
-
-
-    He currently works for the audio technology company Sonos and he is a Future Tense Fellow at New America.
+  text: adfa
 products:
   - image: img/illustrations-coffee.svg
     text: We sell green and roasted coffee beans that are sourced directly from
