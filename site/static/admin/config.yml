@@ -23,9 +23,9 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "publish_date", widget: "date" }
       - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Short Description", name: "short_description", widget: "text" }
+      - { label: "Short Description", name: "short_description", widget: "string" }
       - { label: "Quote", name: "quote", widget: "text" }
-      - { label: "Quote Author", name: "quote_author", widget: "text" }
+      - { label: "Quote Author", name: "quote_author", widget: "string" }
       - {
           label: "Where To Purchase",
           name: availableFrom,
