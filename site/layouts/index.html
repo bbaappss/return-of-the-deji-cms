@@ -37,7 +37,9 @@
   </div>
   <div class="section section3 books" id="books">
     <h2 class="books-headline section-headline h2 blue">Novels</h2>
-    
+    {{ range .Pages }}
+      <h1>{{.Title}}</h1>
+    {{ end }}
     </div>
   </div>
   <div class="section section3 books" id="books">
