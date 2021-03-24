@@ -30,7 +30,7 @@ collections: # A list of collections the CMS should be able to edit
               name: "featuredPost",
               widget: "relation",
               collection: "post",
-              value_field: "description",
+              value_field: "{{slug}}",
               search_fields: ["title"],
             }
           - {
