@@ -28,13 +28,14 @@
         {{ end }}
     </div>
   </div>
+  
+  <div class="homepage-section-container">
+    <div class="section section2 bio" id="bio">
+      <h2 class="section-headline h2 blue">{{ .Params.Intro.Heading }}</h2>
+      {{ .Params.Intro.Text }}
+    </div>
+  </div>
 
 
-
-{{ partial "text-and-image" 
-    (dict 
-        "heading" .Params.values.heading 
-        "text" .Params.values.text 
-        "buttonText" "Read more" "buttonLink" "/values") }}
 
 {{ end }}
