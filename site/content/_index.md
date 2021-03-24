@@ -11,7 +11,7 @@ blurb:
 intro:
   heading: Biography
   text: >-
-    adDEJI BRYCE OLUKOTUN is the author of two novels and his fiction has
+    aDEJI BRYCE OLUKOTUN is the author of two novels and his fiction has
     appeared in five different book collections.
 
 
