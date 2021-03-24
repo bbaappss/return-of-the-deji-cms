@@ -15,6 +15,24 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Intro Blurb", name: "description", widget: "text" }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
+  - name: "novel" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Novel" # Used in the UI, ie.: "New Post"
+    folder: "site/content/novel" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Short Description", name: "short_description", widget: "text" }
+      - { label: "Quote", name: "quote", widget: "text" }
+      - { label: "Quote Author", name: "quote_author", widget: "text" }
+      - { 
+          label: "Purchase options",
+          widget: "object",
+          fields: 
+            - { label: "Text", widget: "string"}
+            - { label: "Link", widget: "string"}
+        }
+      - { label: "Award", name: "award", widget: "text" }
   - name: "pages"
     label: "Pages"
     editor:
