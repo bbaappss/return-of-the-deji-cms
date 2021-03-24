@@ -27,13 +27,13 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Quote", name: "quote", widget: "text" }
       - { label: "Quote Author", name: "quote_author", widget: "text" }
       - {
-          label: "Intro",
-          name: intro,
+          label: "Where To Purchase",
+          name: availableFrom,
           widget: object,
           fields:
             [
-              { label: "Heading", name: "heading", widget: string },
-              { label: "Body", name: "body", widget: "markdown" },
+              { label: "Text", name: "text", widget: string },
+              { label: "Link", name: "link", widget: string },
             ],
         }
       - { label: "Award", name: "award", widget: "text" }
