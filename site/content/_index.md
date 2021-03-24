@@ -15,8 +15,8 @@ intro:
 
     And what about now?
   body: >-
-    DEJI BRYCE OLUKOTUN is the author of two novels and his fiction has appeared
-    in five different book collections.
+    **DEJI BRYCE OLUKOTUN is the author of two novels and his fiction has
+    appeared in five different book collections.**
 
 
     His novel After the Flare won the 2018 Philip K. Dick special citation, and was chosen as one of the best books of 2017 by The Guardian, The Washington Post, Syfy.com, Tor.com, Kirkus Reviews, among others.
