@@ -32,7 +32,7 @@
   <div class="homepage-section-container">
     <div class="section section2 bio" id="bio">
       <h2 class="section-headline h2 blue">{{ .Params.Intro.Heading }}</h2>
-      {{ .Params.Intro.Body }}
+      {{ .Params.Intro.Body | markdownify }}
     </div>
   </div>
 
