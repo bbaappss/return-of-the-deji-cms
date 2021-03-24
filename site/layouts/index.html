@@ -1,27 +1,33 @@
 {{ define "main" }}
 
-<div style="height: 300px; margin-top: 200px; background: green; z-index: 2; position: absolute; top: 0; width: 100%;">
-    {{$base := "post"}}
-    {{$foo := .Params.featuredPost }}
-    {{$url := print $base "/" $foo}}
-    {{ with .Site.GetPage $url }}
-        <div style="background: red; margin-top: 20px">
-            {{ .Date.Format "January 2, 2006" }} 
-            {{ .Title }} 
-            {{ .Description }}
-        </div>
-    {{ end }}
-</div>
-
-
-{{ partial "jumbotron" 
-    (dict 
-        "imageUrl" .Params.image 
-        "subtitle" .Params.subtitle 
-        "featuredPost" .Params.featuredPost
-    ) 
-}}
-
+<div class="section-transition-container">
+    <div class="section-transition bgimage" style="background-position: 0px 30%; background-image: url('{{.Params.image}}')">
+      <div class="color-overlay"></div>
+    </div>
+    <div class="gradient"></div>
+  </div>
+  <div class="homepage-hero">
+    <div class="headline">
+      <h1>
+        {{.Params.subtitle}}
+      </h1>  
+    </div>
+  
+    <div class="update-container">
+        {{$base := "post"}}
+        {{$foo := .Params.featuredPost }}
+        {{$url := print $base "/" $foo}}
+        {{ with .Site.GetPage $url }}
+            <a class="update update-event" href="{{$url}}">
+                <span class="update-type update-event">Current Exploration</span>
+                <span class="update-title">{{ .Title }}</span>
+                <span class="update-date">{{ .Date.Format "January 2, 2006" }}</span>
+                <span class="update-body">{{ .Description }}</span>
+                <div class="read-more">Continue reading</div>
+            </a>        
+        {{ end }}
+    </div>
+  </div>
 
 
 
