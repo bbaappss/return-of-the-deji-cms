@@ -1,9 +1,32 @@
 {{ define "main" }}
 
-{{ partial "blog" . }}
+<div style="height: 300px; margin-top: 200px; background: green; z-index: 2; position: absolute; top: 0; width: 100%;">
+    {{ .Params.featuredPost }}
+    {{$base := "post"}}
+    {{$foo := "confronting-displaced-populations-in-the-21st-century"}}
+    {{$url := print $base "/" $foo}}
+    {{ with .Site.GetPage $url }}
+        {{ .Title }} 
+        {{ .Description }}
+    {{ end }}
+</div>
 
-{{ partial "jumbotron" (dict "imageUrl" .Params.image "subtitle" .Params.subtitle ) }}
 
-{{ partial "text-and-image" (dict "heading" .Params.values.heading "text" .Params.values.text "buttonText" "Read more" "buttonLink" "/values") }}
+{{ partial "jumbotron" 
+    (dict 
+        "imageUrl" .Params.image 
+        "subtitle" .Params.subtitle 
+        "featuredPost" .Params.featuredPost
+    ) 
+}}
+
+
+
+
+{{ partial "text-and-image" 
+    (dict 
+        "heading" .Params.values.heading 
+        "text" .Params.values.text 
+        "buttonText" "Read more" "buttonLink" "/values") }}
 
 {{ end }}
