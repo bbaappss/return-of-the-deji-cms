@@ -3,11 +3,13 @@
 <div style="height: 300px; margin-top: 200px; background: green; z-index: 2; position: absolute; top: 0; width: 100%;">
     {{ .Params.featuredPost }}
     {{$base := "post"}}
-    {{$foo := "confronting-displaced-populations-in-the-21st-century"}}
+    {{$foo := .Params.featuredPost }}
     {{$url := print $base "/" $foo}}
     {{ with .Site.GetPage $url }}
-        {{ .Title }} 
-        {{ .Description }}
+        <div style="background: red; margin-top: 20px">
+            {{ .Title }} 
+            {{ .Description }}
+        </div>
     {{ end }}
 </div>
 
