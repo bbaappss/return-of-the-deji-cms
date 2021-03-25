@@ -45,7 +45,7 @@
         </div>
         <div class="book-container-left">
           {{ with .Params.Award }}
-            <span class="book-award">{{ . }}</span>
+            <span class="book-award">{{ . | safeHTML }}</span>
           {{ end }}
           <span class="book-description">{{ .Params.short_description }}</span>
           <span class="quote-body">“{{ .Params.Quote }}”</span>
