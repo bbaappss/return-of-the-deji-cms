@@ -12,5 +12,5 @@ availableFrom:
     link: https://www.indiebound.org/book/9781944700188
   - text: Amazon
     link: https://www.amazon.com/After-Flare-Nigerians-Space-Olukotun/dp/1944700188/ref=sr_1_1?s=books&ie=UTF8&qid=1483902091&sr=1-1&keywords=%22after+the+flare%22+olukotun
-award: Winner of the 2018 Philip K. Dick special citation award
+award: Winner of the 2018 Philip K. Dick <br/> special citation award
 ---
