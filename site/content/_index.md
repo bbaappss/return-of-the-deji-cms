@@ -2,6 +2,7 @@
 title: Return Of The Deji
 subtitle: Deji Bryce Olukotun is an author, speaker, and changemaker.
 image: img/deji-2021-glamor-photo-optimized.jpeg
+featuredPost: confronting-displaced-populations-in-the-21st-century
 intro:
   heading: Biography
   body: >-
@@ -16,5 +17,14 @@ intro:
 
 
     He currently works for the audio technology company Sonos and he is a Future Tense Fellow at New America.
-featuredPost: confronting-displaced-populations-in-the-21st-century
+featured_section:
+  heading: Deji and his work have been featured in
+  image: img/sonos-sia-uap-00825-scaled.jpg
+  featurePlace:
+    - text: NPR
+    - text: Washington Post
+    - text: Slate
+    - text: Kirkus Reviews
+    - text: The Guardian
+    - text: LA Times
 ---
