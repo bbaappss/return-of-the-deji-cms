@@ -36,8 +36,8 @@
   </div>
   <div class="section section3 books" id="books">
     <h2 class="books-headline section-headline h2 blue">Novels</h2>
-    {{ range where $.Site.RegularPages "Section" "novel" }}
-      
+    {{ $pages := where site.RegularPages "Section" "novel" }}
+    {{ range ($pages.ByParam "publish_date").Reverse }}
       <div class="homepage-book">
         <div class="book-container-right">
           <span class="book-title">{{.Title}}</span>
@@ -58,7 +58,6 @@
           </div>
         </div>
       </div> 
-
     {{ end }}
       <div class="collections">
         <h2 class="section-headline h2 blue">Collections</h2>

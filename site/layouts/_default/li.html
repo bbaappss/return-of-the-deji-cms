@@ -1,6 +1,6 @@
-<a href="{{ .RelPermalink }}" class="no-underline pa3 bg-grey-1 br1 mb2 db raise w-100">
-	<h2 class="f3 b lh-title mb1 primary">{{ .Title }}</h2>
-	<p class="mid-gray lh-title mb2">{{ .Date.Format "Mon, Jan 2, 2006" }}</p>
-	<p class="mb0">{{ .Description }}</p>
-	<p class="link b dib black mb0">Read more →</p>
+<a class="update update-event" href="{{ .RelPermalink }}">
+	<span class="update-title">{{ .Title }}</span>
+	<span class="update-date blue bold">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+	<span class="update-body">{{ .Description }}</span>
+	<div class="read-more">Continue reading</div>
 </a>

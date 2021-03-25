@@ -1,23 +1,28 @@
 .section.inner-page-section-container {
-    background: $green;    
-    padding: 60px 24px;
+  background: $green;
+  padding: 60px 24px;
 
+  @media (min-width: 1024px) {
+    padding: 100px 0;
+    margin: 0 auto;
+
+    > * {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+  }
+
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+
+  .update-container {
+    padding: 0;
     @media (min-width: 1024px) {
-        padding: 100px 24px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
     }
-
-    h1 {
-        font-size: 48px;
-        font-weight: bold;
-    }
-
-    .update-container {
-        margin: 24px 0 0;
-        padding: 0;
-        @media (min-width: 1024px) {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-        }
-    }    
-
+  }
 }
