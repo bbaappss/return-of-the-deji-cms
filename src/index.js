@@ -75,7 +75,7 @@ ScrollTrigger.matchMedia({
           scrub: true,
         }
       });
-    tl.to(".section-transition.bgimage", {backgroundPosition: "0 60%"})
+    tl.to(".section-transition.bgimage", {backgroundPosition: "0px 80%"})
   },
   
   "(min-width: 768px)": function() {
@@ -87,7 +87,7 @@ ScrollTrigger.matchMedia({
           scrub: true,
         }
       });
-    tl.to(".section-transition.bgimage", {backgroundPosition: "0 100%"})
+    tl.to(".section-transition.bgimage", {backgroundPosition: "0px 100%"})
   }, 
   
   // mobile
