@@ -48,7 +48,7 @@ collections: # A list of collections the CMS should be able to edit
   - name: "collection"
     editor:
       preview: false
-    label: "collections"
+    label: "Collection"
     folder: "site/content/collection"
     create: true
     fields:
