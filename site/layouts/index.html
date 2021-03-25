@@ -75,6 +75,18 @@
         </div>
       </div>
   </div>
+  <div class="section section4 featured-in" id="features">
+    <div class="featured-content">
+      <h2 class="section-headline h2 blue">{{ .Params.featured_section.Heading }}</h2>
+      <div class="logo-grid">
+        {{ range .Params.featured_section.featurePlaces }}
+          <span>{{ .text }}</span>
+        {{ end }}
+      </div>
+      <p class="and-more">and more </p>
+    </div>
+    <div class="bg-image" style="background-image:url('{{ .Params.featured_section.Image }}')"></div>
+  </div>
 </div>
 
 </div>
