@@ -55,6 +55,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "publish_date", widget: "date" }
       - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Link", name: "link", widget: string }
   - name: "pages"
     label: "Pages"
     editor:
