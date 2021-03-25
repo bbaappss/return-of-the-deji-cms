@@ -1,5 +1,5 @@
 ---
-title: NIGERIANS IN SPACE
+title: Nigerians In Space
 publish_date: 2021-03-24T03:33:17.992Z
 image: img/nigerians_in_space-800.jpg
 short_description: Nigerians in Space is an international crime thriller about
