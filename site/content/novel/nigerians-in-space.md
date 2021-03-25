@@ -14,5 +14,5 @@ availableFrom:
     text: Your local Indie Book store
   - link: https://www.amazon.com/dp/B00PSSGYL8/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1
     text: Amazon
-award: "this award "
+award: ""
 ---
