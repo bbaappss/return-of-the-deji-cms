@@ -44,7 +44,7 @@ collections: # A list of collections the CMS should be able to edit
               { label: "Link", name: "link", widget: string },
             ],
         }
-      - { label: "Award", name: "award", widget: "text" }
+      - { label: "Award", name: "award", widget: "text", required: false }
   - name: "pages"
     label: "Pages"
     editor:
