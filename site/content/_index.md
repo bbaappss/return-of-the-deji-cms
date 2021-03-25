@@ -20,7 +20,7 @@ intro:
 featured_section:
   heading: Deji and his work have been featured in
   image: img/sonos-sia-uap-00825-scaled.jpg
-  featurePlace:
+  featurePlaces:
     - text: NPR
     - text: Washington Post
     - text: Slate
