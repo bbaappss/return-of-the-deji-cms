@@ -45,6 +45,16 @@ collections: # A list of collections the CMS should be able to edit
             ],
         }
       - { label: "Award", name: "award", widget: "text", required: false }
+  - name: "collection"
+    editor:
+      preview: false
+    label: "collections"
+    folder: "site/content/collection"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "publish_date", widget: "date" }
+      - { label: "Image", name: "image", widget: "image", required: false }
   - name: "pages"
     label: "Pages"
     editor:
