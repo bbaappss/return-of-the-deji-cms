@@ -37,8 +37,17 @@
   </div>
   <div class="section section3 books" id="books">
     <h2 class="books-headline section-headline h2 blue">Novels</h2>
-    {{ range .Pages }}
-      <h1>{{.Title}}</h1>
+    {{ range where $.Site.RegularPages "Section" "novel" }}
+      
+      <div class="homepage-book">
+        <div class="book-container-right">
+          <span class="book-title">{{.Title}}</span>
+          <img class="book-cover" src="{{.Params.Image }}">
+        </div>
+        <div class="book-container-left"><span class="book-award">Winner of the 2018 Philip K. Dick <br> special citation award</span><span class="book-description">After the Flare is a futuristic thriller published by Unnamed Press.</span><span class="quote-body">"The entire novel is spectacularly imagined, well-written, and a pleasure to read. An absorbing novel that explores a compelling, African-centered future world."</span><span class="quote-author">—Kirkus Reviews</span>
+          <div class="available-from-container"><span class="available-from">Available for purchase from</span><a href="https://www.indiebound.org/book/9781944700188" target="_blank">Your local Indie Book store</a><a href="https://www.amazon.com/After-Flare-Nigerians-Space-Olukotun/dp/1944700188/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1483902091&amp;sr=1-1&amp;keywords=%22after+the+flare%22+olukotun" target="_blank">Amazon</a></div>
+        </div>
+      </div>    
     {{ end }}
     </div>
   </div>
