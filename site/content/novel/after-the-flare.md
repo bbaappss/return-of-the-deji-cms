@@ -1,5 +1,5 @@
 ---
-title: After The Flare
+title: After The Flare 123
 publish_date: 2021-03-24T23:19:45.964Z
 image: img/about-direct-sourcing.jpg
 short_description: After the Flare is a futuristic thriller published by Unnamed Press.
