@@ -1,11 +1,11 @@
 {{ define "main" }}
-<div class="section inner-page-section-container">
-  <div class="exploration-post mt4"><span class="update-type update-event">Current Exploration</span>
-    <h1 class="mt3 white">{{.Title}}</h1>
-    <span class="update-date blue bold">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-    <p class="white">Read in {{ .ReadingTime }} minutes</p>
-    <span class="update-body">{{ .Content | markdownify }}</span>
+  <div class="section inner-page-section-container">
+    <div class="exploration-post mt4"><span class="update-type update-event">Current Exploration</span>
+      <h1 class="mt3 white">{{.Title}}</h1>
+      <span class="update-date blue bold">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+      <span class="reading-time white i">Read in {{ .ReadingTime }} minutes</span>
+      <span class="update-body">{{ .Content  }}</span>
+    </div>
   </div>
-</div>
 {{ end }}
  

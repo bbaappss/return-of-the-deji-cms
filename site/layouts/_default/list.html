@@ -1,12 +1,10 @@
 {{ define "main" }}
-
-<div class="section inner-page-section-container">
-  <h1 class="blue">Current Explorations</h1>
-  <div class="update-container">
-    {{ range (.Paginator).Pages.ByPublishDate.Reverse }}
-        {{ .Render "li"}}
-    {{ end }}
+  <div class="section inner-page-section-container">
+    <h1 class="blue">Current Explorations</h1>
+    <div class="update-container">
+      {{ range (.Paginator).Pages.ByPublishDate.Reverse }}
+          {{ .Render "li"}}
+      {{ end }}
+    </div>
   </div>
-</div>
-
 {{end}}
