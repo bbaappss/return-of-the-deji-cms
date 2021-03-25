@@ -23,8 +23,8 @@ featured_section:
   featurePlaces:
     - text: NPR
     - text: Washington Post
+    - text: LA Times
     - text: Slate
     - text: Kirkus Reviews
     - text: The Guardian
-    - text: LA Times
 ---
