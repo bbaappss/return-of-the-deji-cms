@@ -44,7 +44,9 @@
           <img class="book-cover" src="{{.Params.Image }}">
         </div>
         <div class="book-container-left">
-          <span class="book-award">{{ .Params.Award }}</span>
+          {{ with .Params.Award }}
+            <span class="book-award">{{ . }}</span>
+          {{ end }}
           <span class="book-description">{{ .Params.short_description }}</span>
           <span class="quote-body">“{{ .Params.Quote }}”</span>
           <span class="quote-author">—{{ .Params.quote_author }}</span>
