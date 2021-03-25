@@ -28,7 +28,6 @@
         {{ end }}
     </div>
   </div>
-  
   <div class="homepage-section-container">
     <div class="section section2 bio" id="bio">
       <h2 class="section-headline h2 blue">{{ .Params.Intro.Heading }}</h2>
@@ -56,15 +55,27 @@
             {{ end }}
           </div>
         </div>
-      </div>    
+      </div> 
+
     {{ end }}
-    </div>
+      <div class="collections">
+        <h2 class="section-headline h2 blue">Collections</h2>
+        <p>Deji is proud to have his work included in the following collections.</p>
+        <hr/>
+        <div class="collection-item-grid">
+          {{ $pages := where site.RegularPages "Section" "collection" }}
+          {{ range ($pages.ByParam "publish_date").Reverse }}
+            <a class="collection-item" href="{{ .Params.link}}" target="_blank">
+              <span class="book-title">{{ .Title }}</span>
+              <img class="db book-cover" src="{{ .Params.Image }}">
+            </a>
+          {{ end }}
+        </div>
+      </div>
   </div>
-  <div class="section section3 books" id="books">
-    <h2 class="books-headline section-headline h2 blue">Collections</h2>
-    
-    </div>
-  </div>
+</div>
+
+</div>
 
 
 {{ end }}
