@@ -2,7 +2,7 @@
 title: Return Of The Deji
 subtitle: Deji Bryce Olukotun is an author, speaker, and changemaker.
 image: img/deji-2021-glamor-photo-optimized.jpeg
-featuredPost: confronting-displaced-populations-in-the-21st-century
+featuredPost: imagining-migrant-futures-collaboration-with-the-unhcr-innovation-service
 intro:
   heading: Biography
   body: >-
