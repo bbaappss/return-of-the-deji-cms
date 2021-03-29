@@ -101,7 +101,12 @@ collections: # A list of collections the CMS should be able to edit
                     fields:
                       [
                         { label: "Name", name: "text", widget: string },
-                        { label: "Link", name: "link", widget: string },
+                        {
+                          label: "Link",
+                          name: "link",
+                          widget: string,
+                          required: false,
+                        },
                       ],
                   },
                 ],
