@@ -111,4 +111,9 @@ collections: # A list of collections the CMS should be able to edit
                   },
                 ],
             }
-          - { label: Image Credit, name: image_credit, widget: "markdown" }
+          - {
+              label: Image Credit,
+              name: image_credit,
+              widget: "markdown",
+              required: false,
+            }
