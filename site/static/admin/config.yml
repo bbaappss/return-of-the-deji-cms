@@ -98,7 +98,12 @@ collections: # A list of collections the CMS should be able to edit
                     label: "Places Featured",
                     name: featurePlaces,
                     widget: list,
-                    fields: [{ label: "Name", name: "text", widget: string }],
+                    fields:
+                      [
+                        { label: "Name", name: "text", widget: string },
+                        { label: "Link", name: "link", widget: string },
+                      ],
                   },
                 ],
             }
+          - { label: Image Credit, name: image_credit, widget: "markdown" }
