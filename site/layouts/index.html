@@ -79,7 +79,13 @@
       <h2 class="section-headline h2 blue">{{ .Params.featured_section.Heading }}</h2>
       <div class="logo-grid">
         {{ range .Params.featured_section.featurePlaces }}
-          <span>{{ .text }}</span>
+          {{ if .link }}
+            <a href="{{ .link }}" target="_blank">
+              <span>{{ .text }}</span>
+            </a>
+          {{ else }}
+            <span>{{ .text }}</span>
+          {{ end }}          
         {{ end }}
       </div>
       <p class="and-more">and more </p>
@@ -87,7 +93,6 @@
     <div class="bg-image" style="background-image:url('{{ .Params.featured_section.Image }}')"></div>
   </div>
 </div>
-
 </div>
 
 

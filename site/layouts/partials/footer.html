@@ -40,7 +40,12 @@
 		<!--End mc_embed_signup-->
 	  </div>
 	</div>
-	<div class="sign-off-container"><span class="copyright">Copyright © 2021 All Rights Reserved</span></div>
+	<div class="sign-off-container">
+		<span class="image_credit">
+			{{ .Params.image_credit | markdownify }}
+		</span>
+		<span class="copyright">Copyright © 2021 All Rights Reserved</span>
+	</div>
   </footer>
   <script
   src="https://code.jquery.com/jquery-3.6.0.min.js"

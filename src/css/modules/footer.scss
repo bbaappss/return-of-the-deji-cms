@@ -10,9 +10,13 @@ footer.footer {
   }
 
   .sign-off-container {
-    margin-top: 48px;
+    margin-top: 64px;
     display: flex;
     flex-direction: column;
+
+    a {
+      color: black;
+    }
   }
 
   h4 {
@@ -24,9 +28,13 @@ footer.footer {
     max-width: 200px;
   }
 
+  .image_credit,
   .copyright {
-    margin-top: 48px;
-    font-size: 12px;
+    font-size: 16px;
+  }
+
+  .image_credit {
+    margin-bottom: 12px;
   }
 }
 
