@@ -29,6 +29,5 @@ featured_section:
     - text: Slate
     - text: Kirkus Reviews
     - text: The Guardian
-image_credit: Image credit to [Brandon
-  Scott](http://brandonandrewscott.com/){:target="_blank"}
+image_credit: Image credit to [Brandon Scott](http://brandonandrewscott.com/)
 ---
