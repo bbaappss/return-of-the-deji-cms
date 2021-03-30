@@ -1,5 +1,15 @@
 $(window).on("load", function () {
 
+  // automatically open a new tab for links outside of the domain
+
+  var links = document.links;
+
+  for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+    if (links[i].hostname != window.location.hostname) {
+        links[i].target = '_blank';
+    } 
+  }
+
     // set up hamburger stuff
   
     $(".js-hamburger").click(function() {
