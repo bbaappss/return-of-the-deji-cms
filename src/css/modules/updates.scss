@@ -20,10 +20,6 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-
-  + .update {
-    margin-top: 56px;
-  }
 }
 
 .update-type {
@@ -75,7 +71,7 @@ h1.update-title,
   }
 
   @media (min-width: 1280px) {
-    font-size: 32px;
+    font-size: 28px;
   }
 }
 
