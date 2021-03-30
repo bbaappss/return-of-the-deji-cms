@@ -22,9 +22,9 @@ featured_section:
   image: img/sonos-sia-uap-00825-scaled.jpg
   featurePlaces:
     - text: NPR
-      link: https://www.npr.org/
+      link: ""
     - text: Washington Post
-      link: https://www.washingtonpost.com/
+      link: ""
     - text: LA Times
     - text: Slate
     - text: Kirkus Reviews
