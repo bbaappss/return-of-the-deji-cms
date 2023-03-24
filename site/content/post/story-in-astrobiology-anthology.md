@@ -4,7 +4,7 @@ date: 2023-03-24T02:19:21.826Z
 description: My short story "This is How We Save Them", about trophy hunting on
   another planet, was published in the collection Life Beyond Us from the
   European Astrobiology Institute.
-image: img/life-beyond-us-small.jpg
+image: https://europeanastrobiology.eu/wp-content/uploads/2021/04/Life-Beyond-Us-small.jpg
 ---
 My short story "This is How We Save Them", about trophy hunting on another planet, was published in the collection Life Beyond Us from the European Astrobiology Institute. In the story I ask ethical questions about growing animals for the sake of sport and the bizarre practice of funding trophy hunting to protect conservation areas. It's set on a distant moon. But if it sounds like what happens today on Earth - whether with bighorn antelope or lions - it should.
 
