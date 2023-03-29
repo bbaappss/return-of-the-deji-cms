@@ -2,7 +2,7 @@
 	{{ if .Params.Image  }}
 		<img class="db  center" src="{{.Params.Image }}">
 	{{ end }}
-	<span class="update-title">{{ .Title }}</span>
+	<span class="update-title mt3">{{ .Title }}</span>
 	<span class="update-date blue bold">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
 	<span class="update-body">{{ .Description }}</span>
 	<div class="read-more">Continue reading</div>
