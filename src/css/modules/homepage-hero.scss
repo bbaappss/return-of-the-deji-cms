@@ -40,7 +40,7 @@
   }
 
   .update-container {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 
     @media (min-width: 768px) {
       margin-top: 48px;
@@ -48,5 +48,9 @@
     @media (min-width: 1024px) {
       margin-bottom: 0px;
     }
+  }
+
+  img {
+    max-width: 100px;
   }
 }

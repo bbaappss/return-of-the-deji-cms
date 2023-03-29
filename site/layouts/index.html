@@ -19,10 +19,12 @@
         {{$url := print $base "/" $foo}}
         {{ with .Site.GetPage $url }}
             <a class="update update-event" href="{{$url}}">
-                <span class="update-type update-event">Current Exploration</span>
-                <span class="update-title">{{ .Title }}</span>
-                <span class="update-date">{{ .Date.Format "January 2, 2006" }}</span>
-                <span class="update-body">{{ .Description }}</span>
+              {{ if .Params.Image  }}
+                <img class="db mt3 mt4-m h-100 center ml0-m ml0-l" src="{{.Params.Image }}">
+              {{ end }}              
+                <span class="update-type update-event db mt3">Current Exploration</span>
+                <span class="update-title db mt2">{{ .Title }}</span>
+                <span class="update-date db mt2">{{ .Date.Format "January 2, 2006" }}</span>
                 <div class="read-more">Continue reading</div>
             </a>        
         {{ end }}
