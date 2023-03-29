@@ -1,12 +1,13 @@
 {{ define "main" }}
   <div class="section inner-page-section-container">
-    <div class="db exploration-post mt4"><span class="update-type update-event">Current Exploration</span>
-      <div class="flex mt3">
+    <div class="db exploration-post mt-2-m mt4-l">
+      <span class="db update-type update-event">Current Exploration</span>
+      <div class="flex-l mt3 mt0-l">
         {{ if .Params.Image  }}
-          <img class="db mt1 mr5 h-100" src="{{.Params.Image }}">
+          <img class="db mt3 mt4-m mr5-l h-100 center" src="{{.Params.Image }}">
         {{ end }}
-        <div>
-          <h1 class="white">{{.Title}}</h1>
+        <div class="db mt3 mt3-m">
+          <h1 class="lh-title white">{{.Title}}</h1>
           <span class="update-date blue bold mt3 db">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
           <span class="reading-time white i">Read in {{ .ReadingTime }} minutes</span>
           <span class="update-body">{{ .Content  }}</span>
