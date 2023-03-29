@@ -1,4 +1,5 @@
 .update-page {
+
   .update {
     background: white;
     color: $green;
@@ -41,5 +42,11 @@
       align-self: flex-end;
       margin-top: 24px;
     }
+  }
+}
+
+a.update {
+  &:first-of-type {
+    margin-top: 0;
   }
 }

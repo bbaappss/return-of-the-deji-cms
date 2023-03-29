@@ -20,6 +20,13 @@
   color: #fff;
   display: flex;
   flex-direction: column;
+
+  img {
+    object-fit: contain;
+    max-width: 300px;
+    max-height: 300px;
+  }
+
 }
 
 .update-type {
@@ -61,7 +68,7 @@
 
 h1.update-title,
 .update-title {
-  font-size: 26px;
+  font-size: 24px;
   font-weight: 500;
   line-height: 1.2;
   margin-top: 24px;

@@ -1,4 +1,7 @@
-<a class="update update-event" href="{{ .RelPermalink }}">
+<a class="update update-event mt5 mt0-l" href="{{ .RelPermalink }}">
+	{{ if .Params.Image  }}
+		<img class="db  center" src="{{.Params.Image }}">
+	{{ end }}
 	<span class="update-title">{{ .Title }}</span>
 	<span class="update-date blue bold">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
 	<span class="update-body">{{ .Description }}</span>
