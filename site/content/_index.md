@@ -2,12 +2,12 @@
 title: Return Of The Deji
 subtitle: Deji Bryce Olukotun is an author, speaker, and changemaker.
 image: img/deji-2021-glamor-photo-optimized.jpeg
-featuredPost: dramatic-podcast-on-space-and-climate-change
+featuredPost: mothering-the-bay-new-short-story-on-ai-and-misinformation
 intro:
   heading: Biography
   body: >-
     **DEJI BRYCE OLUKOTUN is the author of two novels and his fiction has
-    appeared in five different book collections.**
+    appeared in many different book collections.**
 
 
     His novel After the Flare won the 2018 Philip K. Dick special citation, and was chosen as one of the best books of 2017 by The Guardian, The Washington Post, Syfy.com, Tor.com, Kirkus Reviews, among others.
