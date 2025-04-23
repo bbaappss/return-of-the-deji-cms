@@ -5,6 +5,8 @@ description: Why the sleeper comedies The Resort, Mo, and Killing It are worth
   watching on streaming.
 image: ""
 ---
+![the resort](img/peacocks-the-resort.jpg)
+
 It's a myth that writers don't watch television. 
 
 We do. 
