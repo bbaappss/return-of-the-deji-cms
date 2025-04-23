@@ -3,7 +3,7 @@ title: Three underappreciated comedies on streaming
 date: 2025-04-22T04:53:46.371Z
 description: Why the sleeper comedies The Resort, Mo, and Killing It are worth
   watching on streaming.
-image: img/the-resort.jpeg
+image: img/peacocks-the-resort.jpg
 ---
 It's a myth that writers don't watch television. 
 
