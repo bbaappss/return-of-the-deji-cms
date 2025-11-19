@@ -15,7 +15,6 @@
   h1 {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 24px;
   }
 
   .update-container {
@@ -25,6 +24,8 @@
       grid-template-columns: 1fr 1fr 1fr;
       column-gap: 64px;
       row-gap: 64px;
+      margin-top: 48px;
+
     }
   }
 }
