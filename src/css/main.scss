@@ -154,8 +154,11 @@ hr {
   max-width: 324px !important;
 }
 
-@media (min-width: 60em) { 
+
 .single-image {
+
+  @media (min-width: 60em) { 
+    height: 100%;
     max-width: 400px;
   }
 }
