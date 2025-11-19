@@ -12,4 +12,11 @@ How can we prepare for an age of misinformation and AI? That was the theme of a 
 
 A special thank you to **Andres Martinez** and **Mia Armstrong-López** for editing the story.
 
-*T﻿esting italics*
+`Testing code`
+
+`a﻿nd the list`
+
+* `1﻿`
+
+1. 2
+2. 5
