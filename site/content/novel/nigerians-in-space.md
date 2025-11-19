@@ -8,7 +8,7 @@ short_description: Nigerians in Space is an international crime thriller about
 quote: An exquisite blend of unpredictable twists and lightening-speed plot.
 quote_author: The Guardian
 availableFrom:
-  - link: https://www.unnamedpress.com/books/book/2
+  - link: https://www.unnamedpress.com/all-books/p/nigerians-in-space
     text: The publisher
   - link: https://www.indiebound.org/book/9781939419019
     text: Your local Indie Book store
