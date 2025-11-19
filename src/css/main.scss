@@ -153,3 +153,9 @@ hr {
 #mc_embed_signup .mc-field-group input {
   max-width: 324px !important;
 }
+
+@media (min-width: 60em) { 
+.single-image {
+    max-width: 400px;
+  }
+}
