@@ -11,3 +11,18 @@ How can we prepare for an age of misinformation and AI? That was the theme of a 
 **Babe Liberman** wrote a brilliant [nonfiction response essay](https://issues.org/futuretensefiction/ai-literacy-babe-liberman/) to my story based on her knowledge of how AI is impacting teaching and pedagogy. It's worth a read. Rey Velasquez Sagual create the beautiful digital art. 
 
 A special thank you to **Andres Martinez** and **Mia Armstrong-López** for editing the story.
+
+*K﻿eep Trying `stuff`*
+
+*[H﻿ello world](brandonandrewscott.com)*
+
+## *f﻿adfadg*
+
+* f﻿adgad
+
+  * d﻿ag
+
+
+
+1. 1﻿2312412
+2. 6﻿546
