@@ -1,6 +1,6 @@
 ---
 title: Return Of The Deji
-subtitle: Deji Bryce Olukotun is an author, speaker, and changemaker.
+subtitle: Deji Bryce Olukotun is an author, speaker, and changemaker. With good taste comes great responsibility.
 image: img/deji-2021-glamor-photo-optimized.jpeg
 featuredPost: mothering-the-bay-new-short-story-on-ai-and-misinformation
 intro:
