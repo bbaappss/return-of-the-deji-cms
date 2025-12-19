@@ -1,6 +1,6 @@
 ---
 title: Can AI manage the beautiful game?
-date: 2025-12-23T23:05:17.146Z
+date: 2025-12-19T17:34:52.856Z
 description: Writing for Issues in Science and Technology, I explore whether AI
   could manage a professional English soccer club.
 image: img/issues_soccer_ai.png
